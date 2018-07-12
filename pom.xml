@@ -11,12 +11,13 @@
     <module>callsign-DAO</module>
     <module>callsign-Services</module>
     <module>callsign-Web</module>
-      <module>Runner</module>
+      <!--<module>Runner</module>-->
   </modules>
   <packaging>pom</packaging>
 
   <name>callsign</name>
   <url>https://github.com/Axel4ley/Callsign</url>
+
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -169,6 +170,8 @@
             <configuration>
               <port>8080</port>
               <path>/</path>
+              <charset>UTF-8</charset>
+              <uriEncoding>UTF-8</uriEncoding>
             </configuration>
         </plugin>
       </plugins>
